@@ -902,6 +902,7 @@ func init() {
 	awsServiceNames["cloudtrail"] = "CloudTrail"
 	awsServiceNames["cloudwatch"] = "CloudWatch"
 	awsServiceNames["cloudwatchlogs"] = "CloudWatchLogs"
+	awsServiceNames["cloudwatchrum"] = "CloudWatchRUM"
 	awsServiceNames["codeartifact"] = "CodeArtifact"
 	awsServiceNames["codebuild"] = "CodeBuild"
 	awsServiceNames["codecommit"] = "CodeCommit"
