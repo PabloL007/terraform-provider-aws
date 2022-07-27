@@ -125,8 +125,8 @@ In addition to all arguments above, the following attributes are exported:
 
 ## Import
 
-Cognito Identity Pool Roles Attachment can be imported using the Identity Pool ID, e.g.,
+Cognito Identity Pool Roles Attachment can be imported using the Identity Pool ID formatted as `REGION:GUID` (can be obtained using the [list-identity-pools](https://docs.aws.amazon.com/cli/latest/reference/cognito-identity/list-identity-pools.html) cli command), e.g.,
 
 ```
-$ terraform import aws_cognito_identity_pool_roles_attachment.example us-west-2_abc123
+$ terraform import aws_cognito_identity_pool_roles_attachment.example us-west-2:b64805ad-cb56-40ba-9ffc-f5d8207e6d42
 ```
